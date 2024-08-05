@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <a href="">AMU</a>
+            </ul>
+            <ul>
+                <a href="">Back to website &nbsp; <img src="./assets/right-arrow.png" alt=""></a>
+            </ul>
+        </nav>
+        <div>
+            <h3>Capturing Moments, Creating Memories</h3>
+        </div>
+    </header>
+
+    <main>
+        <div class="main_div">
+            <h2>Create an account</h2>
+            <span>Already have an account? <a href="">Log in</a></span>
+            <form id="form_registrer">
+                <div class="inputs-name-lastname">
+                    <input type="text" placeholder="Name" class="name_user" id="name_user">
+                    <input type="text" placeholder="Last name" class="lastname_user" id="lastname_user">
+                </div>
+                <input type="email" placeholder="Email" class="email_user" id="email_user">
+                <input type="password" placeholder="Enter your password" class="password_user" id="password_user">
+
+                <span class="span_error" id="span_error"></span>
+                <p><input type="checkbox" id="checkbox_register">&nbsp; I agree to the &nbsp;<a href="">Terms & Conditions</a></p>
+                <button type="submit" id="submit_register">Create to account</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>

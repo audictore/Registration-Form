@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+:root{
+    --font-family-roboto: "Roboto", sans-serif;
+    --font-family-orbitron: "Orbitron", sans-serif;
+    --font-size-lg: 3rem;
+    --font-size-md: 2rem;
+    --font-size-sm: 1rem;
+    --color-1: #2b2738;
+    --color-2: #FDFDFD;
+    --color-3: #6e54b6;
+    --color-4: #5d539c;
+    --color-5: #7c7a85;
+    --color-6: #3b364c;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: var(--color-1);
+    padding: 0;
+    margin: 0;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+header{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./assets/wp7390878.webp");
+    object-fit: cover;
+    border-radius: 5px;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+header nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: var(--color-2);
+}
+
+header nav ul:first-child a{
+    font-family: var(--font-family-orbitron);
+    font-size: var(--font-size-lg);
+    font-weight: bold;
+}
+
+header nav ul:last-child a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-sm);
+    font-weight: normal;
+    background-color: var(--color-4);
+    border: solid;
+    border-radius: 2rem;
+    border-color: transparent;
+    padding: 2px 8px 2px 8px;
+}
+
+header nav ul:last-child a img{
+    width: 1rem;
+    height: 1rem;
+}
+
+header div{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div h3{
+    width: 50%;
+    text-align: center;
+    color: var(--color-2);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-md);
+    font-weight: normal;
+}
+
+
+main{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main_div{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+main .main_div h2{
+    width: 100%;
+    color: var(--color-2);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-lg);
+    font-weight: normal;
+}
+
+main .main_div span{
+    width: 100%;
+    color: var(--color-5);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-sm);
+    font-weight: normal;
+}
+
+main .main_div span a{
+    
+    color: var(--color-3);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-sm);
+    font-weight: normal;
+}
+
+main .main_div form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+
+main .main_div form div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+main .main_div form div input{
+    width: 50%;
+    height: 3rem;
+    display: flex;
+}
+
+main .main_div form div input:first-child{
+    margin-right: 1rem;
+}
+
+main .main_div form div input:last-child{
+    margin-left: 1rem;
+}
+
+main .main_div form input{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: var(--color-6);
+    box-sizing: border-box;
+    border: solid;
+    border-color: transparent;
+    border-radius: 5px;
+    color: var(--color-2);
+}
+
+main .main_div form input{
+    margin: .5rem 0 .5rem 0;
+   
+}
+
+main .main_div form p{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--color-2);
+    font-size: var(--font-size-sm);
+    font-family: var(--font-family-roboto);
+}
+
+main .main_div form p input{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+main .main_div form p a{
+    color: var(--color-3);
+}
+
+main .main_div form button{
+    width: 100%;
+    height: 3rem;
+    background-color: var(--color-3);
+    border: none;
+    border-radius: 5px;
+    color: var(--color-2);
+    font-family: var(--font-family-roboto);
+    font-size: var(--font-size-sm);
+}
